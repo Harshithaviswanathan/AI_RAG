@@ -1,0 +1,6 @@
+AI_Frontend/
+venv/
+__pycache__/
+.env
+blenderbot_model/
+saved_model/
