@@ -1,12 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from dotenv import load_dotenv
 import os
 import traceback
 import json
 import yfinance as yf
 import numpy as np
 app = FastAPI()
+
+load_dotenv()
 
 # Add CORS middleware
 app.add_middleware(
@@ -327,8 +330,8 @@ def call_groq_api(prompt, model="llama3-70b-8192"):
     """Call Groq API directly"""
     import requests
     
-    GROQ_API_KEY = "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"
-    
+    GROQ_API_KEY = os.environ.get('GROQ_KEY')
+    print(GROQ_API_KEY)
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json"
