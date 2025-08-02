@@ -327,7 +327,7 @@ def call_groq_api(prompt, model="llama3-70b-8192"):
     """Call Groq API directly"""
     import requests
     
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = "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"
     
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
