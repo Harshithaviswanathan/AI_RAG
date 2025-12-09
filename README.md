@@ -70,4 +70,8 @@ npm run dev
 The system represents a convergence of machine learning, financial data analysis, and artificial intelligence, offering a powerful tool for extracting meaningful insights from complex financial landscapes.
 
 ---
-✨ Developed by HARSHITHA V (22PT12) ✨
+<img width="872" height="505" alt="image" src="https://github.com/user-attachments/assets/55314ad1-f220-4689-b05d-8689d16315af" />
+<img width="716" height="490" alt="image" src="https://github.com/user-attachments/assets/5bcd58cd-3f58-4afa-8357-a966d13ff513" />
+<img width="366" height="502" alt="image" src="https://github.com/user-attachments/assets/364385ee-c6cc-40a2-a226-5a42663680c6" />
+
+
